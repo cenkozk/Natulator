@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.natulator{
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.calculation{
+  display: flex;
+  align-self: flex-end;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11vh;
+  margin-bottom: -36px;
+}
+
+.answer{
+  display: flex;
+  align-self: flex-end;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 7vh;
+  margin-bottom: 16px;
+  color:rgb(98, 98, 98);
+}
+
+.buttons{
+  max-height: 70vh;
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(5,10vh);
+  gap: 15px
+}
